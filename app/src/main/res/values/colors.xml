@@ -1,0 +1,20 @@
+
+    <resources>
+        <!-- Light Theme Colors -->
+        <color name="light_primary">#D3D3D3</color>
+        <color name="light_primary_dark">#A9A9A9</color>
+        <color name="light_accent">#808080</color>
+        <color name="light_background">#FFFFFF</color>
+        <color name="light_text">#000000</color>
+
+        <!-- Placeholder for Dark Theme Colors -->
+        <color name="dark_primary">#D3D3D3</color>
+        <color name="dark_primary_dark">#A9A9A9</color>
+        <color name="dark_accent">#808080</color>
+        <color name="dark_background">#FFFFFF</color>
+        <color name="dark_text">#000000</color>
+    </resources>
+
+
+
+

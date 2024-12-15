@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bbcnewsreader">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BBCNewsReader">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Favorites Activity -->
+        <activity
+            android:name=".activity.FavoritesActivity"
+            android:exported="false" />
+
+        <!-- Article Detail Activity -->
+        <activity
+            android:name=".activity.ArticleDetailActivity"
+            android:exported="false" />
+        <!-- about -->
+        <activity android:name=".activity.AboutActivity"
+            android:exported="true"
+            android:label="@string/about_title"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+
+        <!-- Backup Configuration -->
+        <meta-data
+            android:name="android.app.backup.BackupAgent"
+            android:value="android.app.backup.BackupAgentHelper" />
+        <meta-data
+            android:name="com.android.backup.autoBackup"
+            android:resource="@xml/backup_rules" />
+
+        <!-- Future Activities -->
+        <!-- Add any new activities here -->
+
+    </application>
+</manifest>

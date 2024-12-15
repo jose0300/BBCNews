@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">BBC News Reader</string>
+
+    <!-- Navigation -->
+    <string name="article_title">Title of the Article</string>
+    <string name="article_save">Save Article</string>
+    <string name="article_unsave">Unsave Article</string>
+    <string name="go_to_article">Go to Article</string>
+    <string name="article_saved">Article saved successfully</string>
+    <string name="article_unsaved">Article removed from favorites</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="article_description">Article description goes here.</string>
+    <string name="article_date">Date of Publication</string>
+
+
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="favorites">Favorites</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_search">Search</string>
+    <string name="action_language">Change Language</string>
+    <string name="action_about">About</string>
+
+    <!-- About -->
+    <string name="version">Version 1.0</string>
+    <string name="about_description">This application allows users to read news articles from BBC and save their favorite articles for later viewing. Developed as part of a learning project.</string>
+    <string name="about">About</string>
+    <string name="about_title">About</string>
+    <string name="about_content">BBC News Reader App\nVersion 1.0\nDeveloped by Christian Joseph</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="change_language">Change Language</string>
+    <string name="search_hint">Search for news</string>
+    <string name="search_results">Search Results</string>
+    <string name="no_results_found">No results found</string>
+
+    <string name="failed_to_load_news">Failed to load news</string>
+    <string name="save">Save</string>
+    <string name="unsave">Unsave</string>
+
+
+    <!-- Error Messages -->
+    <string name="no_favorites">No favorite articles found.</string>
+    <string name="failed_to_load">Failed to load news</string>
+    <!-- translation  -->
+    <string name="translating">Translating…</string>
+    <string name="translation_complete">Translation complete!</string>
+
+    <string name="action_theme">Toggle Theme</string>
+
+</resources>
+
+

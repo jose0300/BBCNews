@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Theme -->
+    <style name="Theme.BBCNewsReader" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryDark">@color/light_primary_dark</item>
+        <item name="colorAccent">@color/light_accent</item>
+
+        <!-- Background and Text -->
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColor">@color/light_text</item>
+    </style>
+</resources>
+
+

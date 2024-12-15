@@ -1,0 +1,8 @@
+<resources>
+    <!-- Dark Theme Colors -->
+    <color name="dark_primary">#2B2B2B</color>
+    <color name="dark_primary_dark">#1E1E1E</color>
+    <color name="dark_accent">#4A4A4A</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_text">#FFFFFF</color>
+</resources>
