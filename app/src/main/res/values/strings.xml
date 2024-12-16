@@ -41,7 +41,7 @@
     <string name="failed_to_load_news">Failed to load news</string>
     <string name="save">Save</string>
     <string name="unsave">Unsave</string>
-
+    <string name="action_refresh">Refresh</string>
 
     <!-- Error Messages -->
     <string name="no_favorites">No favorite articles found.</string>
