@@ -40,6 +40,7 @@ public class FavoritesActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setTitle(R.string.favorites); // Set title
         }
 
         databaseHelper = new DatabaseHelper(this);
@@ -87,4 +88,5 @@ public class FavoritesActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
 

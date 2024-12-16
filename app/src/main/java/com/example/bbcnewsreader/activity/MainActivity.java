@@ -95,13 +95,9 @@ public class MainActivity extends AppCompatActivity {
             }
             return true;
         } else if (id == R.id.action_theme) {
-            // Toggle between light and dark themes
-            int currentNightMode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
-            if (currentNightMode == Configuration.UI_MODE_NIGHT_YES) {
-                toggleTheme(false); // Switch to light mode
-            } else {
-                toggleTheme(true); // Switch to dark mode
-            }
+            // Toggle theme
+            boolean isDarkMode = (AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES);
+            toggleTheme(!isDarkMode);
             return true;
         }
 
@@ -172,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
         recreate(); // Recreate the activity to apply the theme
     }
 }
+
 
 
 

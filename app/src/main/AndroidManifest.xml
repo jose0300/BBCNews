@@ -47,8 +47,7 @@
             android:name="com.android.backup.autoBackup"
             android:resource="@xml/backup_rules" />
 
-        <!-- Future Activities -->
-        <!-- Add any new activities here -->
+
 
     </application>
 </manifest>

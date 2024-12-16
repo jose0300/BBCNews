@@ -23,6 +23,7 @@
     <string name="action_language">Change Language</string>
     <string name="action_about">About</string>
 
+
     <!-- About -->
     <string name="version">Version 1.0</string>
     <string name="about_description">This application allows users to read news articles from BBC and save their favorite articles for later viewing. Developed as part of a learning project.</string>
@@ -48,7 +49,6 @@
     <!-- translation  -->
     <string name="translating">Translating…</string>
     <string name="translation_complete">Translation complete!</string>
-
     <string name="action_theme">Toggle Theme</string>
 
 </resources>
